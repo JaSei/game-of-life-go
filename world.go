@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-type world [][]cell
+type world [XMAX + 1][YMAX + 1]cell
 
 func (w world) Print() {
 	for _, x := range w {
